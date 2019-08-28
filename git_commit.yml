@@ -1,0 +1,29 @@
+resources:
+- name: git-repo
+  public: true
+  type: git
+  icon: github-circle 
+  check_every: 1m
+  source: 
+    uri: "https://github.com/nayamama/groovy_java.git"
+    branch: master
+
+jobs:
+- name: job-1
+  public: true
+  plan:
+    - get: git-repo
+      trigger: true
+    - task: ls-files
+      config:
+        inputs:
+          - name: git-repo
+        platform: linux
+
+        image_resource:
+          type: registry-image
+          source: {repository: busybox}
+          
+        run:
+          path: ls
+          args: ["-la", "./git-repo"]

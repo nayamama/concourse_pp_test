@@ -1,0 +1,13 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+  - name: test-repo
+
+run:
+  path: test-repo/ci_git/deploy_task.sh
+
