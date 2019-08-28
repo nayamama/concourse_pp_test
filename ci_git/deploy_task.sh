@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 set -x
 
@@ -10,4 +10,4 @@ touch private_key.pem
 echo "touch the file"
 
 echo $PRIVATE_KEY > private_key.pem
-cat private_key
+cat private_key.pem
