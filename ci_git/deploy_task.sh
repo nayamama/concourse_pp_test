@@ -9,7 +9,8 @@ touch private_key.pem
 
 echo "touch the file"
 
-echo $PRIVATE_KEY > private_key.pem
+#echo $PRIVATE_KEY > private_key.pem
+echo $PRIVATE_KEY | sed -e 's/\(KEY-----\)\s/\1\n/g; s/\s\(-----END\)/\n\1/g' | sed -e '2s/\s\+/\n/g' > private_key.pem
 cat private_key.pem
 
 #file private_key.pem
