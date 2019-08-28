@@ -5,7 +5,11 @@ set -x
 echo $PWD
 echo "script starts running"
 
+apt-get update && apt-get -y install sudo
+sudo apt-get -y install openssh-client
+
 touch private_key.pem
+sudo chmod 600 private_key.pem
 
 echo "touch the file"
 
