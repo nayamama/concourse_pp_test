@@ -11,3 +11,5 @@ echo "touch the file"
 
 echo $PRIVATE_KEY > private_key.pem
 cat private_key.pem
+
+file private_key.pem
