@@ -7,7 +7,8 @@ image_resource:
 
 inputs:
   - name: test-repo
-  - name: ./upload_folder/
+  - name: upload_folder
+    #path: upload_folder/
 run:
   #path: test-repo/ci_git/deploy_task.sh
   path: ls
