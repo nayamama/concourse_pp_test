@@ -1,0 +1,32 @@
+resources:
+- name: git-repo
+  public: true
+  type: git
+  icon: github-circle 
+  source: 
+    uri: "https://github.com/nayamama/groovy_java.git"
+    branch: master
+
+- name: test-repo
+  type: git
+  icon: github-circle 
+  source: 
+    uri: "https://github.com/nayamama/concourse_pp_test.git"
+    branch: master
+
+- name: my-timer
+  type: time
+  source:
+    interval: 2m
+
+jobs:
+  - name: map-resource-in-another-folder
+    public: true
+    plan:
+      - get: git-repo
+      - get: test-repo
+      - get: my-timer
+        trigger: true
+      - task: check-folder-structure
+        file: test-repo/ci_git/deploy_task.yml
+

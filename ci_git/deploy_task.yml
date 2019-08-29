@@ -7,10 +7,10 @@ image_resource:
 
 inputs:
   - name: test-repo
-  - name: ci_git
-    #path: upload_folder/
+  - name: git-repo
+    path: maven_files/github.com/groovy_java
+    
 run:
-  #path: test-repo/ci_git/deploy_task.sh
-  path: ls
-  args: ['alR']
+  path: test-repo/ci_git/deploy_task.sh
+  
 
