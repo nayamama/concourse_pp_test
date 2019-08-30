@@ -49,8 +49,6 @@ resources:
     interval: 2m
 
 jobs:
-  - serial: true
-  - public: true
   - name: upgrade-commit
     plan:
       - get: git-repo
@@ -68,6 +66,7 @@ jobs:
     plan:
       - get: git-repo
         trigger: true
+        passed: [upgrade-commit]
       - get: test-repo
       - task: show-new-update
         file: test-repo/commit_output/show_new_date.yml
