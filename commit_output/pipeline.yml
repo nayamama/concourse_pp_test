@@ -4,8 +4,8 @@ resources:
   type: git
   icon: github-circle 
   source: 
-    #uri: "https://github.com/nayamama/groovy_java.git"  # not working
-    uri: "git@github.com/nayamama/groovy_java.git"
+    uri: "https://github.com/nayamama/groovy_java.git"  # not working
+    #uri: "git@github.com/nayamama/groovy_java.git"
     branch: master
     private_key: |
       -----BEGIN RSA PRIVATE KEY-----
