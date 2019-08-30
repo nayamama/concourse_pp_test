@@ -8,6 +8,7 @@ image_resource:
 inputs:
   - name: git-repo
     path: maven_files/github.com/groovy_java
+  - name: test-repo
 
 run:
   path: cat
