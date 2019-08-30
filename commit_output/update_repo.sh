@@ -3,7 +3,7 @@
 set -ex
 
 apt-get update && apt-get -y install sudo
-sudo apt-get -y install git
+sudo apt-get -y install git tree
 
 ls -al
 
@@ -13,7 +13,9 @@ cd update-git
 date > try_me
 
 git config --global user.email "nayamama@hotmail.com"
+git config --global user.name "Qi Yang"
 
+tree .
 git add .
 git commit -m "Add date file"
 git push
