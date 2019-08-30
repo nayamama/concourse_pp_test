@@ -7,32 +7,33 @@ resources:
     uri: "https://github.com/nayamama/groovy_java.git"
     branch: master
     private_key: |
-      PuTTY-User-Key-File-2: ssh-rsa
-      Encryption: none
-      Comment: rsa-key-20160329
-      Public-Lines: 6
-      AAAAB3NzaC1yc2EAAAABJQAAAQEAubRGbtaNVkC7QiE+HU039RB6hY4pjPFt9Zue
-      jYBayTBcNr/FYqjdf098ttcwDUFdNyHkVqpDyH2BdD/uLiExQtbuMjRE/4tcv5+E
-      lPubNK2S9TZq/CRaMStZmvBdLwVma//XHDyAyD5KiCv+P6io1pcb3tYctw7SJKDZ
-      POOvm/CGw1KXrqbLxHTu/yhruPiqU3ZuxT/y9TfazVXR5Ls8WCwVA+5Zy2RnVdlA
-      IeXNI9naR4U6zpwLdzqToscSsr0A5qWn8YnHhK69OCUn43KFQJ+/WTQNVp3E+x1c
-      cpwV8VZHvGFgIofqPJyk1QdGJ4kcSfQ9HdED44x20f7njIzK2Q==
-      Private-Lines: 14
-      AAABABkYXIuExv3RZWnNJBHMKigJJVBRezyPVAxu+cAYQ56lq5iyIZe19GsmasyZ
-      nrWu4xVJxOkd7Xv1SNhbqpCcs6E/o6XrY0Ugq6sxO24UKbsCsv6K0C/pPJ7cWDeI
-      Q/GY8ipFKugj2g042aOy6wGvAg8pLUegZL7Kpsat89fLvcj2wkdcsKuvAMU/VjAF
-      VOCYhOHdaZBk+/Fg/KeSUl/3uFnOHASqfRB3aHIb43+qXmuNCEJhAkeNFo3IvSFd
-      Cj+GvDIjTj/4TXSEkRpnP/JghaqrHeeaHiz2hK9SoH5sonDtZ04W0fJELrSqKEMG
-      VLgRRzAqQMghv2f2FwOvdjVNTWEAAACBAO7r8t2K+0g1xMUuZ2z0PY4UWS/8d+vj
-      ghHW6yUgCoPZPAOsTUQ07C3nZjmLbCSxSqgGQDP4hbPZLqdR6OS6Fm5jBWzUNh6t
-      I36lYh0DHcXGJn3tkxQRTu45RZdIbsu0521/PicGIVhWTPkdlGIY7RPpr99dJL6m
-      hsm5Cdck3h/XAAAAgQDG+n6exs+xDkHfOjMkRrjehIOYAqmLfegU6y/ky1RkTMeo
-      aE0RtjfOIgsMsoztvRUoVhDCxJvj6z50wGDiIo5VEJr4EL/SEulzNcb+eFdIvrow
-      7PlNK8g0Ftq7HDyYK/h3Ya2N6G4FE8roLd2kVhwsyKVLKuW81U8Cynw/Q6XUzwAA
-      AIEAmyolVjEUbUip/7LDO6UY27JBhxqvUr9J/56bYaicPrVeNz9tSHXrfMslUB0O
-      6I2T/dyxMUyjZEEPy4Qwyx3IIkR880/VR1L0I2vRywD0qaWcosFpwEeWDGVcbWBZ
-      6iQHHcVvtJvnZ1hWCzZcniNyx+q4bQeFL5v1s4hrFDa+9zY=
-      Private-MAC: 605293f9e4c7f046af98f6d30e3d9a13aaf22123
+      -----BEGIN RSA PRIVATE KEY-----
+      MIIEpAIBAAKCAQEArSKizEyNfGv/+7KZwfmGNauMBJPGATqF5k2B8b/gPGc6BqTL
+      li99VeSoMcJUaIFJTg6jdjn7b7237IDAZ+3ItkuvhoBKNWvy3YIQd+OdLRB3MrP7
+      5nPvD2o9Ji8jxZZUHAq3ULVt6UUrhWgLYoLqQA7doq5ZtF/eOpALQulgZaB+ZDsY
+      6nJIagbcjbmJhJF4/GuAW4cyIhjOYlwnxesQ1BjmtDgTcdo/1AlOOjN8no2ZHTWp
+      KMxgx1p4C5fdCrvLymy+gfk4GJNFIvP3Rn91BivTf8MeZ4nJDm9hAadR2mO1Kht+
+      +iVQiyIEpn+PIQJykA1p3sRc8oO2RcuSctKFgwIDAQABAoIBABgd8AF3VGoVfTXp
+      XgOoJ2rId5uXnghDx60Z9NTg/nJLisisIfPMr6/MRyWPRUS9ZaGq5lgsoXqiOcGG
+      +cZAWCoUhuG8cxnX7J+wY2zf1uAVIBV+/sLOOWmzSctM27XFR/gUAg8LBsFssjBG
+      Gvfg9pJvv63OjY5ToFgWAouSiKv/IXRdDhk5uFt5nLvPeO42gnJes3OOieFLYURq
+      h00xridxDB93YyOefQTY4y+YAoiQBROTqM5Vu022t2vcA6pL46cFbz7+fl/Mh63I
+      0qIh0mrQ6wFv/wADZBtPsZQkEaEdJK73bbd/9PQYtb2pnzxmVC9e6fCyhSahArOO
+      64ZEwCkCgYEA4N9a+rb0CxJwvnazgWi4keVFBEzEkrP0wNoGPrTweU71U/l1PwGq
+      JsnHmaPg+6y4CsLUIqjwx44jHb8pLkOZqXzzbHiUJPinahrZvdkU5KDvqeTuS9QS
+      pU4/jUf6vJTxRcbYBf1WhcB4BM4vAmv2PQOaUDTNwyLj3LKh8J44FK0CgYEAxRno
+      NZSqXLdaNoDLSja6SjIt3WLNzKrfpDXspZNnsgt8JMKuyl7slOT2d2m6rZKAkcHr
+      2Ss9Dm29QHu6U6GKdBrpLKwMczfYINlB5ItEza2v+6lF7wn2R+8UWTZVPLU7FbuY
+      JE0aRRVg9AdU7VdQVge/7ZBgKDTozqZ+mT6DGO8CgYEApkmkzoeiGdnuE3pVrZmR
+      +xlOmyplppJ6qG3Rdmd4+EvCMPHkmM4TVBGcj2nXQmTrx9Fg66yAOSFLqICm5DZL
+      GEF1BL551okly9nFMJWp1JOKBtlquho+G42sgz46FWAStuWe83bul4PHfM43hxPt
+      CBt07mDN08ImPBrAk918XRUCgYEAkv2WIldjkc+fdKQqd4dG+MxhTghAaJFKReF9
+      QaIjpDFSfOu/hOaz0vrKIBX2hTmLrqgLZqMLXrZSfEOJmpMPeTUUjh8lDcwo356G
+      uJVwU19jre/4WqN4Sv8ukrWlbafOj4+ej/v8Smb+Lh9Fo9cI74/J/7Y7L+D9ehfK
+      tChdhnsCgYBlsXVGLMI/FsriHmO03fNs4Gks1ju5khjgeNijJWgiq4pMIf2r22u5
+      nv68qsq9v/9tO7jD16stFkFxQnMUFm7UFOYPdAeJC7t8GIXhH1e5qgAcxRvnR0R+
+      BMMedpgUJ0BocK63CB+m6j2jrv5DxXOrKJqoLIiWgRbyYRjjbmvCZg==
+      -----END RSA PRIVATE KEY-----
 
 - name: test-repo
   type: git
