@@ -5,6 +5,8 @@ set -ex
 apt-get update && apt-get -y install sudo
 sudo apt-get -y install git
 
+ls -al
+
 git clone git-repo
 
 cd git-repo

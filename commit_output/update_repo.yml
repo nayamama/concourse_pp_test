@@ -8,7 +8,7 @@ image_resource:
 inputs:
   - name: test-repo
   - name: git-repo
-    path: maven_files/github.com/groovy_java
+    #path: maven_files/github.com/groovy_java
 outputs:
   - name: update-git
 
