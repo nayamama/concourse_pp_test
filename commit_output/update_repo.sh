@@ -7,9 +7,9 @@ sudo apt-get -y install git
 
 ls -al
 
-git clone git-repo
+git clone git-repo update-git
 
-cd git-repo
+cd update-git
 date > try_me
 
 git config --global user.email "nayamama@hotmail.com"
