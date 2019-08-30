@@ -1,0 +1,14 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+  - name: git-repo
+    path: maven_files/github.com/groovy_java
+
+run:
+  path: cat
+  args: ["maven_files/github.com/groovy_java/try_me"]
