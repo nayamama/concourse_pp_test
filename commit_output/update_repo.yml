@@ -1,0 +1,16 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: {repository: busybox}
+
+inputs:
+  - name: test-repo
+  - name: git-repo
+    path: maven_files/github.com/groovy_java
+outputs:
+  - name: update-git
+
+run:
+  path: test-repo/commit_output/update_repo.sh
